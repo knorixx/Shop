@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&display=swap');
+*{
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.frame{
+    display: flex;
+    place-content: center;
+    width: 100%;
+}
+.wrapper{
+    width: 1024px;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.block {
+    background: #ee82ee45;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px #0000004d;
+    cursor: pointer;
+    transition: .1s;
+}
+.block:hover{
+    background: violet;
+}
+.headerBox{
+    position: fixed;
+    background: white;
+}
+a.btn{
+    background: #ee82ee45;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+    color: black;
+}
+a.btn:hover{
+    background: violet;
+}
+.btnBox {
+    display: flex;
+    align-items: center;
+}
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+.headerBox {
+    position: fixed;
+    background: white;
+    top: 0;
+    box-shadow: 0 0 20px #00000078;
+}
+img.img {
+    height: 270px;
+}
+.imgBox {
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.titleBox >span {
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.titleBox {
+    margin-top: 10px;
+}
