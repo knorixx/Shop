@@ -18,7 +18,7 @@
     flex-wrap: wrap;
 }
 .block {
-    background: #ee82ee45;
+    background: #fcfcfc45;
     padding: 15px;
     margin: 5px;
     border-radius: 7px;
@@ -80,4 +80,14 @@ img.img {
 .titleBox {
     margin-top: 10px;
     width: 270px
+}
+}
+body{
+    margin: 0;
+}
+.intro{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
